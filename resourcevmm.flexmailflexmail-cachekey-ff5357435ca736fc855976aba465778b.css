@@ -1,0 +1,18 @@
+
+/* - ++resource++vmm.flexmail/flexmail.css - */
+/* https://www.vmm.be/portal_css/++resource++vmm.flexmail/flexmail.css?original=1 */
+/* */
+form[class~="kssattr-formname-vmm.flexmail.portlets.FlexmailPortlet"] div#formfield-form-css {
+display: none;
+}
+body.userrole-manager form[class~="kssattr-formname-vmm.flexmail.portlets.FlexmailPortlet"] div#formfield-form-css {
+display: block;
+}
+/* */
+/* */
+form[action*="vmm-flexmail-portlet"] div#formfield-form-css {
+display: none;
+}
+body.userrole-manager form[action*="vmm-flexmail-portlet"] div#formfield-form-css {
+display: block;
+}
