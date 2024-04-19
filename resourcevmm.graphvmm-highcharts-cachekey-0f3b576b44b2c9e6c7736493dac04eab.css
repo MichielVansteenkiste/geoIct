@@ -1,0 +1,234 @@
+
+/* - ++resource++vmm.graph/vmm-highcharts.css - */
+@media screen {
+/* https://www.vmm.be/portal_css/++resource++vmm.graph/vmm-highcharts.css?original=1 */
+.icons-on .contenttype-graph {
+background: no-repeat transparent 0px 4px url(++resource++vmm.graph/graph-icon.png);
+line-height: 2em;
+display: inline-block;
+display: block;
+padding-left: 20px !important;
+padding-top: 0px !important;
+}
+.graph_legend {
+margin-top: 1em;
+}
+#content .graph_legend p {
+margin-bottom: 0.3em;
+}
+.highcharts-data-table {
+overflow-x: auto;
+}
+.highcharts-data-table table {
+outline: 0;
+}
+.highcharts-data-table tr:hover {
+background: rgba(0,0,0,.02);
+}
+.highcharts-data-table th,
+.highcharts-data-table td {
+padding: 5px;
+border-bottom: 1px solid #ddd;
+}
+.highcharts-data-table th {
+background: #ddd;
+}
+/* */
+.mceContentBody .graphlink a,
+.mceContentBody .graphlink-left a,
+.mceContentBody .graphlink-right a {
+display: block;
+background: lightyellow;
+border: 1px dashed orange;
+height: 300px;
+}
+.mceContentBody .graphlink a::before,
+.mceContentBody .graphlink-left a::before,
+.mceContentBody .graphlink-right a::before {
+content: "\f200";
+margin: .5em;
+font-family: FontAwesome;
+font-size: 3em;
+line-height: 2;
+color: orange;
+}
+.graphlink,
+.graphlink a {
+display: block;
+width: 100%;
+}
+.graphlink-left,
+.graphlink-right {
+background: white;
+width: 48%;
+}
+.graphlink-left {
+float: left;
+margin: .5em .5em .5em 0;
+}
+.graphlink-right {
+float: right;
+margin: .5em 0 .5em .5em;
+}
+.graphlink .inline-legend,
+.graphlink-left .inline-legend,
+.graphlink-right .inline-legend {
+font-size: 70%;
+line-height: 1.428571429;
+}
+.graph-view-remarks,
+.graph-view-source,
+.graph-view-link {
+display: block;
+}
+.graph-view-link {
+text-align: right;
+margin-right: 5px;
+}
+.graph-view-source {
+font-style: italic;
+}
+@media (max-width: 890px) {
+.graphlink-left,
+.graphlink-right {
+width: 100%;
+margin: 0;
+}
+.mceContentBody .graphlink-left {
+width: 48%;
+margin: .5em .5em .5em 0;
+}
+.mceContentBody .graphlink-right {
+width: 48%;
+margin: .5em 0 .5em .5em;
+}
+}
+.eea-preview-items .static-image {
+width: 600px;
+}
+.eea-preview-items span.static-image-title {
+font-weight: 400;
+font-size: 1.2em;
+color: black !important;
+text-decoration: none !important;
+}
+}
+
+
+/* - ++resource++mira.content/vmm-mira-content.css - */
+/* https://www.vmm.be/portal_css/++resource++mira.content/vmm-mira-content.css?original=1 */
+.icons-on .contenttype-indicator {
+background: no-repeat transparent 0px 6px url(++resource++mira.content/indicator_icon.png);
+line-height: 2em;
+display: inline-block;
+*display: block;
+padding-left: 20px !important;
+}
+.icons-on .contenttype-theme {
+background: no-repeat transparent 0px 6px url(++resource++mira.content/theme_icon.png);
+line-height: 2em;
+display: inline-block;
+*display: block;
+padding-left: 20px !important;
+}
+.icons-on .contenttype-environmentreport {
+background: no-repeat transparent 0px 6px url(++resource++mira.content/ereport_icon.png);
+line-height: 2em;
+display: inline-block;
+*display: block;
+padding-left: 20px !important;
+}
+.graph_thumbs { overflow: auto;
+width: 100%;}
+.graph_thumb { height: 120px;
+width:  200px;
+background: white;
+float: left;
+margin: 8px;
+border: 2px solid #DDD}
+.graph_thumb.hover { border: 2px solid #AAA;}
+.staticimage_container {
+position:relative;
+float: left;
+}
+.staticimage {
+position:relative;
+text-align:center;
+margin-top: 60px;
+}
+.statictext {
+font-family:  "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+font-size: 18px;
+left: 0;
+position: absolute;
+top: -50px;
+width: 100%;
+}
+.legend_container p {
+margin-bottom: 0px !important;
+}
+#biggraph, #biggraph-legend {
+background: white;
+}
+.dpsir {
+width: 100%;
+text-align: right;
+margin: 5px 0px;
+}
+.dpsir div {
+display: inline-block;
+background: #227799;
+color: white;
+margin: 0px 3px;
+padding: 3px;
+width: 1.3em;
+text-align: center;
+}
+#content .dpsir_link:link,
+#content .dpsir_link:hover,
+#content .dpsir_link:visited,
+#content .dpsir_link:active {
+color:white !important;
+text-decoration: none;
+border-bottom: none !important;
+}
+.dpsir .highlight {background: #22bbee;}
+@media print {
+.dpsir .highlight {background: #22bbee;}
+}
+.template-mira-controlpanel #content textarea { width: 50em; height: 12em;}
+.two-columns {
+column-count: 2;
+column-gap: 3em;
+column-fill: balance;
+}
+/* */
+.portal-column-two-top {
+margin-bottom: 12px;
+}
+/* */
+
+
+/* - ++resource++vmm.window/vmm-window.css - */
+/* https://www.vmm.be/portal_css/++resource++vmm.window/vmm-window.css?original=1 */
+.icons-on .contenttype-window {
+background: no-repeat transparent 0px 4px url(++resource++vmm.window/window-icon.png);
+line-height: 2em;
+display: inline-block;
+display: block;
+padding-left: 20px !important;
+padding-top: 0px !important;
+}
+.vmm-window {
+overflow: hidden;
+padding-top: 56.25%;
+position: relative;
+}
+.vmm-window iframe {
+border: 0;
+height: 100%;
+left: 0;
+position: absolute;
+top: 0;
+width: 100%;
+}
