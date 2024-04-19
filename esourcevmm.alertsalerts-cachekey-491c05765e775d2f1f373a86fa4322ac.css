@@ -1,0 +1,190 @@
+
+/* - ++resource++vmm.alerts/alerts.css - */
+@media screen {
+/* https://www.vmm.be/portal_css/++resource++vmm.alerts/alerts.css?original=1 */
+#vmm-alerts { clear:both; width:100%; }
+.vmm-alert { display:block; padding-left:52px; margin:10px 0; }
+.vmm-alert.severity-alert { border:2px solid #BC3126; background:url(++resource++vmm.alerts/alert.png) no-repeat left 2px top 10px #F5E9EA; }
+.vmm-alert.severity-alert.alert-link,
+.vmm-alert.severity-alert.alert-link:hover { color:#BC3126; }
+.vmm-alert.severity-notification { border:2px solid #819b4b; background:url(++resource++vmm.alerts/notification.png) no-repeat left 2px top 10px #F0F4DD; }
+.vmm-alert.severity-notification.alert-link,
+.vmm-alert.severity-notification.alert-link:hover { color:#74AC73; }
+.vmm-alert h2 { font-size:1.231em; margin-top:4px; }
+.vmm-alert span { float:right; padding-right:10px; }
+.vmm-alert .image { float:right; }
+.vmm-alert .image img { float:right; }
+}
+
+
+/* - ++resource++vmm_social_like.css - */
+@media screen {
+/* https://www.vmm.be/portal_css/++resource++vmm_social_like.css?original=1 */
+#viewlet-social-like > div
+{
+float: left;margin-right: 1em;
+}
+#viewlet-social-like
+{
+min-height: 3em;
+margin-top: 5px;
+}
+#viewlet-social-like .twitter-count-horizontal
+{
+height: 20px !important;
+}
+#viewlet-social-like .fb_edge_widget_with_comment
+{
+position: relative;
+margin-top: 0;
+}
+.twitter-share-button
+{
+margin-top: .8px;
+}
+#viewlet-social-like.vertical
+{
+min-height: 7em !important;
+}
+#viewlet-social-like .whatsapp,
+#viewlet-social-like .telegram,
+#viewlet-social-like .share-by-email
+{
+font-size: 82%;
+display: inline-block;
+overflow: hidden;
+height: 20px;
+padding: 0 5px 0 24px;
+white-space: nowrap;
+color: #fff !important;
+border: 0 !important;
+border-bottom: none !important;
+border-radius: 3px;
+background-repeat: no-repeat;
+background-size: 16px;
+}
+#viewlet-social-like .whatsapp.link,
+#viewlet-social-like .telegram.link,
+#viewlet-social-like .share-by-email.link
+{
+width: 0;
+padding: 0 20px;
+text-indent: -200%;
+background-position: 50%;
+}
+#viewlet-social-like .whatsapp
+{
+display: none;
+background-color: #199e0e;
+background-image: url(++resource++sl_images/ico-whatsapp.svg);
+background-position: 2px 2px;
+}
+#viewlet-social-like .whatsapp:hover,
+#viewlet-social-like .telegram:hover,
+#viewlet-social-like .share-by-email:hover
+{
+color: #fff !important;
+}
+#viewlet-social-like .whatsapp.active
+{
+display: inline-block;
+}
+#viewlet-social-like .telegram
+{
+background-color: #31a4d5;
+background-image: url(++resource++sl_images/ico-telegram.svg);
+background-size: 19px;
+}
+#viewlet-social-like .share-by-email
+{
+background-color: #205c90;
+background-image: url(++resource++sl_images/ico-email.svg);
+background-position: 5px 3px;
+background-size: 14px;
+}
+#viewlet-social-like .sociallike-network-gplus div
+{
+width: 53px !important;
+}
+#viewlet-social-like .sociallike-network-gplus div iframe
+{
+width: 53px !important;
+}
+}
+
+
+/* - ++resource++gallerylink.resources/style.css - */
+@media screen {
+/* https://www.vmm.be/portal_css/++resource++gallerylink.resources/style.css?original=1 */
+.gallerylink-list {
+}
+.gallerylink-list a {
+display: inline;
+margin: 5px;
+outline: none;
+}
+.gallerylink-list a img {
+max-height: 90px;
+border: 1px solid #CCC;
+padding: 2px;
+margin: 10px 5px 10px 0;
+}
+
+}
+
+
+/* - ploneCustom.css - */
+@media all {
+/* https://www.vmm.be/portal_css/ploneCustom.css?original=1 */
+/* */
+/* */
+.portlet-static {
+background: white;
+}
+.content-type-link-box-groen a {
+color: white;
+}
+img {
+image-rendering: optimizequality;
+image-rendering: -moz-crisp-edges;
+image-rendering: -o-crisp-edges;
+image-rendering: -webkit-optimize-contrast;
+image-rendering: crisp-edges;
+-ms-interpolation-mode: bicubic;
+}
+iframe {
+max-width: 100%;
+}
+#content .tile-default .cover-richtext-tile.tile-content h2, #content .tile-default .cover-richtext-tile.tile-content h3 {
+font-size: 22px;
+margin: -2px 0 5px 0;
+padding: 0;
+}
+@media (min-width: 992px) {
+#portal-column-two {
+padding-left: 15px;
+}
+}
+/* */
+#content #document-toc ol li a {
+background: #1a6f8c url(++theme++vmm.theme/static/images/index_arrow_white.png) no-repeat top 50% left 5px;
+}
+#content #document-toc ol li ol li a {
+background: #6f8c3b url(++theme++vmm.theme/static/images/index_arrow_white.png) no-repeat top 50% left 5px;
+}
+/* */
+body:not(.mceContentBody) .scrollable {
+overflow-x: scroll;
+display: block;
+}
+/* */
+body.subsection-jobs .tile.list-one-column .tile-content > p:first-of-type {
+font-size: 0;
+}
+body.subsection-jobs .tile.list-one-column .tile-content > p:first-of-type::before {
+content: "Momenteel hebben we geen vacatures. Kijk later nog eens terug of dien een spontane sollicitatie in. ";
+font-size: 14px;
+}
+/* */
+
+}
