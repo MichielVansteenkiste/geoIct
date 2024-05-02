@@ -1,4 +1,4 @@
-$("#suggestionInput").autocomplete({
+$("#searchInput").autocomplete({
     preProcess: (suggestionsResponse) => {
         return suggestionsResponse.SuggestionResult;
     },
